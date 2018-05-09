@@ -1,0 +1,153 @@
+
+body
+{
+    font-family: "Times New Roman";
+    background-image:url("images/body.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text]
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.reg-form span
+{
+    color: white;
+
+}
+.basic label
+{
+ background: #33e8ff;
+    width:200px;
+    box-shadow: #09180a 1px 2px 2px;
+    height: 32px;
+    font-size:17px ;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-weight: normal;
+
+}
+.basic .row
+{
+    padding-top: 10px;
+}
+.basic p
+{
+    padding-left: 25px;
+    font-size: 21px;
+    padding-top: 3px;
+
+}
+h3
+{
+    width: 100%;
+    background-color: #80ddf7;
+    color:#000;
+    min-height: 35px;
+    border-radius: 5px;
+    padding-top: 5px;
+    box-shadow:2px 2px 2px #09180a ;
+    padding-left: 15px;
+}
+button {
+    width: 150px;
+}
+h2
+{
+    height: 40px;
+    background-color: #fa4c81;
+    background-blend-mode: color-burn;
+    padding-top: 3px;
+    border-radius: 5px ;
+    text-align: center;
+}
+.skills h5
+{
+    font-size: 30px;
+    font-family: "Times New Roman";
+    font-weight:520;
+}
+.project h5
+{
+    font-weight:520;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
+.skills p
+{
+  padding-left: 70px;
+    font-size: 17px;
+}
+.project p
+{
+    padding-left: 70px;
+}
+.area h5
+{
+ font-family: "Times New Roman";
+    font-weight: normal;
+    font-size: 50px;
+
+}
+.container
+{
+    width: 80%;
+}
+.container .row input[type=date],input[type=text]
+{
+    height: 40px;
+    text-align: center;
+}
+.container .reg-form .row input[type=date] {
+    width: 190px;
+}
+.container .reg-form input[type=text],input[type=date]
+{
+    width: 180px;
+}
+.container .row h4
+{
+    /*background-color: rgba(237,45,89,0.77);*/
+    height:30px;
+    /*width: 75%;
+    color: white;*/
+    padding-top: 4px;
+    border-radius: 4px;
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;
+    box-shadow: rgba(63,63,55,0.97) 1px 2px 3px ;
+    padding-left: 15px;
+    font-size: 25px;
+    color: rgba(13,13,87,0.6) ;
+
+}
+
+.validation-grids
+{
+    max-width: auto;
+    max-height: auto;
+    box-shadow:0px 0px 5px black;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.1);
+    padding: 10px 25px 10px 25px;
+}
+.validation-grids input[type="text"],input[type="password"],input[type="email"]
+{
+    text-align: left;
+    height: 38px;
+}
+.validation-grids header
+{
+    text-transform: capitalize;
+    font-size: 30px;
+
+}
+
+
